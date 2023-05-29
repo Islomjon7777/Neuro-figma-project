@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(17, 199, 223, 0.322);;
+    display: flex;
+    align-items: center;
+}
+.ul1{
+    display: flex;
+    gap: 30px;
+    margin-left: 60px;
+    color: black;
+}
+.ul1 li a{
+    color: black;
+    text-decoration: none;
+}
+.h1{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 400px;
+}
+.ul2{
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+}
+.ul2 li a{
+    color: black;
+    text-decoration: none;
+}
+/* container1 */
+.container1{
+    width: 100%;
+    height: 725px;
+    background: url(./Rectangle1.jpg);
+    display: flex;
+    align-items: center;
+}
+.container1 .box{
+    width: 15%;
+    background: transparent;
+    margin-left: 80px;
+}
+.container1 .box h1{
+    color: white;
+    font-size: 35px;
+}
+.container1 .box p{
+    color: rgba(255, 255, 255, 0.884);
+}
+.container1 .box button{
+    width: 130px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.boxx{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.boxx p{
+    color: white;
+}
+.boxx button{
+    margin-left: 300px;
+    width: 150px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+}
+/* container2 */
+.container2{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+}
+.container2 h1{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+.container2 .textcenter {
+    width: 350px;
+    color: black;
+    text-align: center;
+    margin-left: 780px;
+}
+.container2 .divimg{
+    text-align: center;
+}
+/* container3 */
+.container3{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.container3 h1{
+    font-size: 35px;
+    text-align: center;
+}
+.container3 h6{
+    text-align: center;
+}
+.container3 .container3boxes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.container3 .container3boxes .box1{
+    width: 300px;
+    height: 200px;
+    background-color: purple;
+}
+.container3 .container3boxes .box1 img{
+    margin-left: 135px;
+
+}
+.container3 .container3boxes .box1 button{
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 100px;
+}
+.container3 .container3boxes .box2{
+    width: 300px;
+    height: 200px;
+    background-color: palevioletred;
+}
+.container3 .container3boxes .box2 img{
+    margin-left: 135px;
+}
+.container3 .container3boxes .box2 button{
+    margin-left: 100px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+}
+.container3 .container3boxes .box3{
+    width: 300px;
+    height: 200px;
+    background-color: lightseagreen;
+}
+.container3 .container3boxes .box3 img{
+    margin-left: 115px;
+}
+.container3 .container3boxes .box3 button{
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 100px;
+}
+/* container4 */
+.container4{
+    display: flex;
+}
+/* container5 */
+.container5{
+    width: 100%;
+    height: 500px;
+    background-color: #005466;
+}
+.container5 .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container5 .boxes .box1 img{
+    width: 400px;
+    height: 400px;
+}
+.container5 .boxes .box2 h1{
+    font-size: 35px;
+    color: white;
+}
+.container5 .boxes .box2 p{
+    color: white;
+}
+.container5 .boxes .box2 button{
+    width: 180px;
+    height: 35px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
+.container5 .imgdiv{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.container5 .imgdiv img{
+    width: auto;
+}
+/* container6 ishlatilmadi */
+/* container7 */
+.container7{
+    width: 100%;
+    height: 500px;
+    background-color: #F7D8BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container7 .box1 h1{
+    font-size: 35px;
+    color: #C47B59;
+}
+.container7 .box1 p{
+    color: #C47B59;
+}
+.container7 .box1 button{
+    width: 180px;
+    height: 35px;
+    color: #C47B59;
+    background: transparent;
+    border: 2px solid #C47B59;
+}
+.container7 .box2{
+    display: flex;
+    gap: 1px;
+}
+.container7 .box2 .img{
+    width: 400px;
+    height: 400px;
+}
+.container7 .box2 .img1{
+    width: 400px;
+    height: 400px;
+}
+/* container8 */
+.container8{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container8 .box2 h1{
+    font-size: 35px;
+    color: black;
+}
+.container8 .box2 p{
+    color: black;
+}
+.container8 .box2 button{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+/* container9 */
+.container9{
+    width: 100%;
+    height: 500px;
+    background-color: #F1FAF6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container9 .box2 h1{
+    font-size: 35px;
+    color: black;
+}
+.container9 .box2 p{
+    color: black;
+}
+.container9 .box2 button{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.container10{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.container10 .box2 h1{
+    font-size: 35px;
+    color: black;
+}
+.container10 .box2 p{
+    color: black;
+}
+.container10 .box2 .h5{
+    color: black;
+    text-decoration: underline;
+}
+/* container11 */
+.container11{
+    display: flex;
+}
+/* container12 */
+.container12{
+    width: 100%;
+    height: 800px;
+    background-color: #005466;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comtainer12 .box1 h1{
+    font-size: 35px;
+    color: white;
+}
+.container12 .box1 p{
+    color: white;
+}
+.container12 .box1 h5{
+    color: black;
+}
+/* container13 */
+.container13{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.container13 h1{
+    text-align: center;
+    font-size: 35px;
+}
+.container13 .h5{
+    text-align: center;
+}
+.container14{
+    width: 100%;
+    height: 700px;
+    background: url(./Rectangle16.jpg);
+    display: flex;
+    align-items: center;
+}
+.container14 .box{
+    margin-left: 70px;
+}
+.container14 .box h1{
+    color: white;
+}
+.container14 .box button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
